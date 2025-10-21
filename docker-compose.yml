@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  edge-llm-iot:
+    build: .
+    container_name: edge-llm-iot-monitor
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_NAME=Qwen/Qwen2.5-1.5B-Instruct
+      - DEVICE=cpu
+      - MAX_LENGTH=512
+      - EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+      - CHROMA_PERSIST_DIR=/app/chroma_db
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./training:/app/training
+      - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s

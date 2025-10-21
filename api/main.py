@@ -1,6 +1,6 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
@@ -8,6 +8,8 @@ from rag.rag_llm_pipeline import RAGLLMPipeline
 from contextlib import asynccontextmanager
 import uvicorn
 import os
+import json
+import asyncio
 
 # Global pipeline instance
 pipeline = None
@@ -18,10 +20,10 @@ async def lifespan(app: FastAPI):
     global pipeline
     
     # Startup
-    print("\n Starting Edge LLM IoT Monitor API...")
+    print("\n🚀 Starting Edge LLM IoT Monitor API...")
     pipeline = RAGLLMPipeline()
     pipeline.initialize(load_llm=True)
-    print("✓ API Ready!\n")
+    print("✓ API Ready with Streaming Support!\n")
     
     yield
     
@@ -34,8 +36,8 @@ async def lifespan(app: FastAPI):
 # Create FastAPI app
 app = FastAPI(
     title="Edge LLM IoT Monitor",
-    description="AI-powered IoT monitoring with RAG and LLM",
-    version="1.0.0",
+    description="AI-powered IoT monitoring with RAG, LLM, and Real-time Streaming",
+    version="2.0.0",
     lifespan=lifespan
 )
 
@@ -81,7 +83,8 @@ async def root():
     return {
         "service": "Edge LLM IoT Monitor",
         "status": "running",
-        "version": "1.0.0",
+        "version": "2.0.0",
+        "features": ["RAG", "LLM", "Streaming", "LoRA Fine-tuned"],
         "dashboard": "/dashboard"
     }
 
@@ -97,7 +100,8 @@ async def health_check():
         return {
             "status": "healthy",
             "rag_initialized": pipeline.rag_system.initialized,
-            "llm_loaded": pipeline.llm_handler.model_loaded
+            "llm_loaded": pipeline.llm_handler.model_loaded,
+            "features": ["standard", "streaming", "lora-finetuned"]
         }
     return {"status": "initializing"}
 
@@ -128,6 +132,40 @@ async def query_sensors(request: QueryRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/stream")
+async def stream_query(
+    query: str,
+    category: Optional[str] = None,
+    n_results: int = 5
+):
+    """Stream query response in real-time (SSE)"""
+    
+    if not pipeline or not pipeline.initialized:
+        raise HTTPException(status_code=503, detail="Pipeline not initialized")
+    
+    async def generate():
+        # Step 1: Retrieve
+        yield f"data: {json.dumps({'status': 'retrieving', 'message': 'Searching...'})}\n\n"
+        await asyncio.sleep(0.1)
+        
+        docs = pipeline.rag_system.query(query, n_results, category)
+        yield f"data: {json.dumps({'status': 'retrieved', 'count': len(docs)})}\n\n"
+        
+        # Step 2: Generate
+        yield f"data: {json.dumps({'status': 'generating', 'message': 'Analyzing...'})}\n\n"
+        
+        result = pipeline.query(query, n_results, category, "analysis", 150)
+        
+        # Stream response word by word for demo
+        words = result['response'].split()
+        for word in words:
+            yield f"data: {json.dumps({'token': word + ' '})}\n\n"
+            await asyncio.sleep(0.05)
+        
+        yield f"data: {json.dumps({'status': 'complete', 'metadata': result['metadata']})}\n\n"
+    
+    return StreamingResponse(generate(), media_type="text/event-stream")
+
 @app.get("/stats", response_model=StatsResponse)
 async def get_stats():
     """Get RAG system statistics"""
@@ -145,3 +183,11 @@ if __name__ == "__main__":
         port=8000,
         reload=False
     )
+
+# Add monitoring imports
+from api.monitoring import monitor
+
+@app.get("/metrics")
+async def get_metrics():
+    """Get performance metrics"""
+    return monitor.get_metrics()

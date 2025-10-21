@@ -1,0 +1,752 @@
+[
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Interpret this access control event",
+    "input": "Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203",
+    "output": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Evaluate camera system status",
+    "input": "Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045",
+    "output": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Interpret humidity levels",
+    "input": "Humidity: 75%, Status: alert, Device: AGR_089",
+    "output": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Analyze this surveillance sensor reading",
+    "input": "Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101",
+    "output": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Identify unusual sensor behavior",
+    "input": "Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average",
+    "output": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Assess window sensor alert",
+    "input": "Window status: open, Break detected: True, Device: WIN_012",
+    "output": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Evaluate temperature sensor data",
+    "input": "Temperature: 32\u00b0C, Status: alert, Device: AGR_150",
+    "output": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+  },
+  {
+    "instruction": "Analyze soil moisture reading",
+    "input": "Soil moisture: 35%, Status: dry, Device: AGR_201",
+    "output": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+  },
+  {
+    "instruction": "Assess light exposure data",
+    "input": "Light: 45000 lux, Status: day, Device: AGR_312",
+    "output": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  },
+  {
+    "instruction": "Detect anomalies in sensor pattern",
+    "input": "Multiple motion sensors triggered simultaneously across different zones within 2 seconds",
+    "output": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+  }
+]

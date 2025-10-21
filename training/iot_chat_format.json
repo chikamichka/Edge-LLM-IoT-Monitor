@@ -1,0 +1,2402 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret this access control event\n\nContext: Door status: open, Access granted: False, User ID: USER_5432, Device: DOOR_203"
+      },
+      {
+        "role": "assistant",
+        "content": "Unauthorized access attempt detected at DOOR_203 by USER_5432. Access was denied but door status shows open, indicating a potential security breach. Immediate investigation required and security team should be notified."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate camera system status\n\nContext: Camera status: recording, FPS: 30, Resolution: 4K, Device: CAM_045"
+      },
+      {
+        "role": "assistant",
+        "content": "CAM_045 is operating optimally with 4K resolution at 30 FPS in recording mode. System performance is excellent for high-quality surveillance monitoring. No maintenance required."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Interpret humidity levels\n\nContext: Humidity: 75%, Status: alert, Device: AGR_089"
+      },
+      {
+        "role": "assistant",
+        "content": "Elevated humidity at 75% detected by AGR_089 exceeds optimal range (40-70%). High humidity increases risk of fungal diseases and mold growth. Recommend improving ventilation and monitoring for disease symptoms."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze this surveillance sensor reading\n\nContext: Motion detected: True, Zone: parking, Confidence: 0.95, Device: CAM_101"
+      },
+      {
+        "role": "assistant",
+        "content": "High-confidence motion detected in parking area by CAM_101. This indicates active movement in the monitored zone. Recommend verifying the activity and checking recorded footage for security assessment."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Identify unusual sensor behavior\n\nContext: Temperature sensor showing 45\u00b0C reading, which is 15\u00b0C above historical average"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical anomaly: Temperature reading significantly exceeds historical patterns. This could indicate sensor malfunction, equipment failure, or actual environmental emergency. Verify sensor calibration and investigate heat source immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess window sensor alert\n\nContext: Window status: open, Break detected: True, Device: WIN_012"
+      },
+      {
+        "role": "assistant",
+        "content": "Critical security alert: Window break detected at WIN_012 with window status showing open. This indicates forced entry or damage. Immediate security response required and authorities should be contacted."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Evaluate temperature sensor data\n\nContext: Temperature: 32\u00b0C, Status: alert, Device: AGR_150"
+      },
+      {
+        "role": "assistant",
+        "content": "Temperature alert at 32\u00b0C from AGR_150 exceeds optimal growing range (18-28\u00b0C). High temperature may cause heat stress in plants. Recommend activating cooling systems or shade structures to protect crops."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Analyze soil moisture reading\n\nContext: Soil moisture: 35%, Status: dry, Device: AGR_201"
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture at 35% indicates dry conditions detected by AGR_201. This is below optimal range for most crops (40-60%). Recommend increasing irrigation frequency to prevent crop stress and yield reduction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Assess light exposure data\n\nContext: Light: 45000 lux, Status: day, Device: AGR_312"
+      },
+      {
+        "role": "assistant",
+        "content": "Light exposure at 45,000 lux indicates strong daylight conditions suitable for photosynthesis. AGR_312 shows optimal lighting for plant growth. Current conditions support healthy crop development."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert IoT monitoring assistant specialized in surveillance and agriculture systems."
+      },
+      {
+        "role": "user",
+        "content": "Detect anomalies in sensor pattern\n\nContext: Multiple motion sensors triggered simultaneously across different zones within 2 seconds"
+      },
+      {
+        "role": "assistant",
+        "content": "Anomaly detected: Simultaneous motion alerts across multiple zones suggest either a system malfunction or coordinated unauthorized activity. Recommend immediate system diagnostics and security verification."
+      }
+    ]
+  }
+]
