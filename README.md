@@ -459,7 +459,7 @@ Project Link: [https://github.com/chikamichka/edge-llm-iot-monitor](https://gith
 
 <div align="center">
 
-**Built with ❤️ for Edge AI and IoT**
+**Built with Chikamichka for Edge AI and IoT**
 
 ⭐ Star this repo if you find it helpful!
 
