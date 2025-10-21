@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Models and data
+models/*.bin
+models/*.safetensors
+models/*.gguf
+data/*.csv
+data/*.json
+chroma_db/
+
+# Environment
+.env
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
