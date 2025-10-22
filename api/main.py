@@ -1,29 +1,40 @@
-from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
 from rag.rag_llm_pipeline import RAGLLMPipeline
+from agents.multi_agent_system import MultiAgentSystem
+from api.monitoring import monitor
 from contextlib import asynccontextmanager
 import uvicorn
 import os
 import json
 import asyncio
+import time
 
-# Global pipeline instance
+# Global instances
 pipeline = None
+multi_agent_system = None
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Lifespan context manager for startup/shutdown"""
-    global pipeline
+    global pipeline, multi_agent_system
     
     # Startup
     print("\n🚀 Starting Edge LLM IoT Monitor API...")
     pipeline = RAGLLMPipeline()
     pipeline.initialize(load_llm=True)
-    print("✓ API Ready with Streaming Support!\n")
+    
+    # Initialize multi-agent system
+    multi_agent_system = MultiAgentSystem(
+        pipeline.llm_handler,
+        pipeline.rag_system
+    )
+    print("✓ Multi-Agent System initialized")
+    print("✓ API Ready with Full Features!\n")
     
     yield
     
@@ -36,7 +47,7 @@ async def lifespan(app: FastAPI):
 # Create FastAPI app
 app = FastAPI(
     title="Edge LLM IoT Monitor",
-    description="AI-powered IoT monitoring with RAG, LLM, and Real-time Streaming",
+    description="AI-powered IoT monitoring with RAG, LLM, Multi-Agent, and Real-time Streaming",
     version="2.0.0",
     lifespan=lifespan
 )
@@ -84,14 +95,8 @@ async def root():
         "service": "Edge LLM IoT Monitor",
         "status": "running",
         "version": "2.0.0",
-        "features": ["RAG", "LLM", "Streaming", "LoRA Fine-tuned"],
-        "dashboard": "/dashboard"
+        "features": ["RAG", "LLM", "Streaming", "Multi-Agent", "LoRA Fine-tuned"],
     }
-
-@app.get("/dashboard")
-async def dashboard():
-    """Serve the dashboard HTML"""
-    return FileResponse("api/static/index.html")
 
 @app.get("/health")
 async def health_check():
@@ -101,7 +106,8 @@ async def health_check():
             "status": "healthy",
             "rag_initialized": pipeline.rag_system.initialized,
             "llm_loaded": pipeline.llm_handler.model_loaded,
-            "features": ["standard", "streaming", "lora-finetuned"]
+            "multi_agent_ready": multi_agent_system is not None,
+            "features": ["standard", "streaming", "multi-agent", "lora-finetuned"]
         }
     return {"status": "initializing"}
 
@@ -113,6 +119,8 @@ async def query_sensors(request: QueryRequest):
         raise HTTPException(status_code=503, detail="Pipeline not initialized")
     
     try:
+        start_time = time.time()
+        
         result = pipeline.query(
             user_query=request.query,
             n_results=request.n_results,
@@ -120,6 +128,8 @@ async def query_sensors(request: QueryRequest):
             mode=request.mode,
             max_tokens=request.max_tokens
         )
+        
+        monitor.record_query(time.time() - start_time, success=True)
         
         return QueryResponse(
             query=result['query'],
@@ -130,6 +140,39 @@ async def query_sensors(request: QueryRequest):
         )
     
     except Exception as e:
+        monitor.record_query(0, success=False)
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/multi-agent-query")
+async def multi_agent_query(request: QueryRequest):
+    """Query using multi-agent system for complex analysis"""
+    
+    if not multi_agent_system:
+        raise HTTPException(status_code=503, detail="Multi-agent system not initialized")
+    
+    try:
+        start_time = time.time()
+        
+        result = multi_agent_system.analyze_with_agents(
+            query=request.query,
+            category=request.category,
+            n_results=request.n_results
+        )
+        
+        monitor.record_query(time.time() - start_time, success=True)
+        
+        return {
+            "query": result['query'],
+            "mode": "multi-agent",
+            "agents_used": result['agents_used'],
+            "agent_analyses": result['agent_analyses'],
+            "final_response": result['final_synthesis'],
+            "retrieved_documents": result['retrieved_documents'],
+            "metadata": result['metadata']
+        }
+    
+    except Exception as e:
+        monitor.record_query(0, success=False)
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/stream")
@@ -156,7 +199,7 @@ async def stream_query(
         
         result = pipeline.query(query, n_results, category, "analysis", 150)
         
-        # Stream response word by word for demo
+        # Stream response word by word
         words = result['response'].split()
         for word in words:
             yield f"data: {json.dumps({'token': word + ' '})}\n\n"
@@ -176,6 +219,11 @@ async def get_stats():
     stats = pipeline.rag_system.get_stats()
     return StatsResponse(**stats)
 
+@app.get("/metrics")
+async def get_metrics():
+    """Get performance metrics"""
+    return monitor.get_metrics()
+
 if __name__ == "__main__":
     uvicorn.run(
         "api.main:app",
@@ -184,10 +232,71 @@ if __name__ == "__main__":
         reload=False
     )
 
-# Add monitoring imports
-from api.monitoring import monitor
+# Add A/B testing import
+from api.ab_testing import ab_tester
 
-@app.get("/metrics")
-async def get_metrics():
-    """Get performance metrics"""
-    return monitor.get_metrics()
+# A/B Testing Endpoints
+@app.post("/ab-test-query")
+async def ab_test_query(request: QueryRequest):
+    """Query with automatic A/B testing between standard and multi-agent"""
+    
+    experiment_id = "standard_vs_multiagent"
+    variant = ab_tester.get_variant(experiment_id)
+    
+    try:
+        start_time = time.time()
+        
+        if variant == "variant_a":
+            # Standard query
+            result = pipeline.query(
+                user_query=request.query,
+                n_results=request.n_results,
+                category_filter=request.category,
+                mode=request.mode,
+                max_tokens=request.max_tokens
+            )
+            response = {
+                "variant": "standard",
+                "query": result['query'],
+                "response": result['response'],
+                "metadata": result['metadata']
+            }
+        else:
+            # Multi-agent query
+            result = multi_agent_system.analyze_with_agents(
+                query=request.query,
+                category=request.category,
+                n_results=request.n_results
+            )
+            response = {
+                "variant": "multi-agent",
+                "query": result['query'],
+                "agents_used": result['agents_used'],
+                "response": result['final_synthesis'],
+                "metadata": result['metadata']
+            }
+        
+        inference_time = time.time() - start_time
+        ab_tester.record_result(experiment_id, variant, inference_time, success=True)
+        
+        return response
+        
+    except Exception as e:
+        ab_tester.record_result(experiment_id, variant, 0, success=False)
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/ab-tests")
+async def list_ab_tests():
+    """List all A/B tests and their results"""
+    return ab_tester.list_experiments()
+
+@app.get("/ab-test/{experiment_id}")
+async def get_ab_test_results(experiment_id: str):
+    """Get results for a specific A/B test"""
+    return ab_tester.get_experiment_results(experiment_id)
+
+@app.post("/ab-test/{experiment_id}/stop")
+async def stop_ab_test(experiment_id: str):
+    """Stop an A/B test"""
+    ab_tester.stop_experiment(experiment_id)
+    return {"status": "stopped", "experiment_id": experiment_id}
