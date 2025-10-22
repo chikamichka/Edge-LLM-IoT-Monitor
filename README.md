@@ -720,7 +720,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ### 🌟 Star this repo if you find it helpful!
 
-**Built with ❤️ for Edge AI, IoT, and MLOps**
+**Built with chikamichka for Edge AI, IoT, and MLOps**
 
 **Perfect for:** ML Engineer | MLOps Engineer | LLM Engineer | Edge AI Developer
 
